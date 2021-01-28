@@ -1,0 +1,5 @@
+numbers = range(1,1000001)
+numbers1 = list(numbers)
+print(min(numbers1))
+print(max(numbers1))
+print(sum(numbers1))
