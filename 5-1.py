@@ -1,0 +1,23 @@
+str1 = 'wdnmd'
+str2 = 'a'
+str3 = 'b'
+print('Is str1 == "wdnmd"? I predict True.')
+print(str1 == 'wdnmd')
+print('Is str2 == "a" and str3 == "b"? I predict True.')
+print(str2 == "a" and str3 == "b")
+print('Is str2 != "b" and str3 == "b"? I predict True.')
+print(str2 != "b" and str3 == "b")
+print('Is str2 != "b" and str3 != "a"? I predict True.')
+print(str2 != "b" and str3 != "a")
+print('Is str2 != "b" or str3 != "b"? I predict True.')
+print(str2 != "b" or str3 != "b")
+print('Is str2 != "a" or str3 != "b"? I predict False.')
+print(str2 != "a" or str3 != "b")
+print('Is str2 == "b" and str3 != "b"? I predict False.')
+print(str2 == "b" and str3 != "b")
+print('Is str2 == "b" and str3 == "a"? I predict False.')
+print(str2 == "b" and str3 == "a")
+print('Is str2 == "a" and str3 == "a"or str1 != "wdnmd"?I predict False.')
+print(str2 == "a" and str3 == "a" or str1 != "wdnmd")
+print('Is str2 != "a" or str3 == "a"and str1 == "wdnmd"?I predict False.')
+print(str2 != "a" or str3 == "a"and str1 == "wdnmd")
